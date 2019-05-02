@@ -189,3 +189,10 @@ npm run prettier
 ### Account Record Page
 
 The account record page features an **Account Map** component that locates the account on a map.
+
+``
+sfdx force:source:deploy -p force-app -u suryanits@cunning-moose-1viefu.com
+
+sfdx force:user:permset:assign -n ebikes -u suryanits@cunning-moose-1viefu.com
+
+``
